@@ -1,0 +1,26 @@
+.buttons {
+    background-color: rgb(94, 94, 94);
+    justify-content: flex-start;
+    align-items: auto;
+    transform-origin: center;
+    bottom: auto;
+    color: rgb(14, 14, 14);
+}
+
+.buttons:hover {
+    background-color: rgb(123, 110, 63);
+    justify-content: flex-start;
+    align-items: auto;
+    transform-origin: center;
+    bottom: auto;
+    color: rgb(253, 253, 253);
+}
+
+.buttons:active {
+    background-color: rgb(72, 94, 188);
+    justify-content: flex-start;
+    align-items: auto;
+    transform-origin: center;
+    bottom: auto;
+    -unity-text-outline-color: rgba(82, 76, 76, 0);
+}

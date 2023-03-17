@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:GroupBox style="align-self: flex-start;">
+            <ui:Label tabindex="-1" text="Health" display-tooltip-when-elided="true" />
+            <ui:ProgressBar value="100" style="width: 110px; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(255, 0, 0);" />
+        </ui:GroupBox>
+        <ui:GroupBox style="align-self: flex-start;">
+            <ui:Label tabindex="-1" text="stamina" display-tooltip-when-elided="true" />
+            <ui:ProgressBar value="100" style="width: 111px;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="GroupBox" style="height: 179px;" />
+        <ui:GroupBox style="align-self: stretch; flex-direction: column-reverse; align-items: flex-end; justify-content: center; height: 38px; width: 670px;">
+            <ui:Label tabindex="-1" text="Weapon" display-tooltip-when-elided="true" style="white-space: nowrap; -unity-text-align: upper-right;" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>
